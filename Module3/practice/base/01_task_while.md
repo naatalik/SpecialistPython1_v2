@@ -15,7 +15,11 @@
 ### Решение задачи
 
 ```python
-n = int(input("n: "))
+n = int(input('Сколько раз вывести надпись: '))
+
+while n > 0:
+    print('Я учу Python')
+    n -= 1
 
 # TODO: you code here...
 ```
